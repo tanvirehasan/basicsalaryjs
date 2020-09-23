@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 2 </title>
+</head>
+<body>
+	<h2>Problem 2</h2>
+	<div id="list" ></div>
+	<script>
+		var color, ul;
+		color = ['white', 'green', 'red'];
+		ul = "<ul>"; color.forEach(listview); ul += "</ul>";
+		document.getElementById("list").innerHTML = ul;
+		function listview(li){
+			ul += "<li>" + li + "</li>";
+		}
+
+		//2nd option
+		for(ul of color){
+			document.write( "<li>" + ul + "</li>" );
+		}
+
+	</script>
+
+
+</body>
+</html>
